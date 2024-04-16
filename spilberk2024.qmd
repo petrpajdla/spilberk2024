@@ -1,0 +1,68 @@
+---
+title: "Přehled dat o archeologických výzkumech v AMČR"
+subtitle: "2019 – 2023"
+title-slide-attributes: 
+  data-background-color: "#B5E2FF"
+  data-background-image: "./figs/aiscr.png"
+  data-background-size: "20%"
+  data-background-position: "50% 80%"
+author: 
+  - name: Petr Pajdla
+  - name: Olga Lečbychová
+format:
+  revealjs:
+    fontsize: 24px
+    link-external-icon: true
+    link-external-newwindow: true
+    footer: "Archeologické výzkumy na Moravě a ve Slezsku 2024"
+    footer-color: "white"
+    # logo: "./figs/aiscr.png"
+    # chalkboard:
+    #   theme: whiteboard
+    #   chalk-effect: 0.0
+execute:
+  echo: false
+  warning: false
+  cache: true
+---
+
+## Digitální archiv AMČR
+
+<https://digiarchiv.aiscr.cz/>
+
+![](figs/da.png)
+
+## Přehled oznámení {background-color=#B5E2FF}
+
+## Přehled oznámení
+
+
+
+## Jak dlouho dopředu přichází oznámení?
+
+## Přehled OAO
+
+- Viz aplikace **Mapa archeologických organizací**: <https://oao.aiscr.cz/>
+
+![](figs/mapa_oao.png)
+
+## Přehled výzkumů {background-color=#B5E2FF}
+
+## Jak dlouho trvá archeologický výzkum?
+
+## AMČR-PAS {background-color=#B5E2FF}
+
+## AMČR-PAS
+
+### *Portál amatérských spolupracovníků a evidence samostatných nálezů*
+
+- Viz článek v *Internet Archaeology*:  
+  <https://doi.org/10.11141/ia.64.13>
+
+![](figs/intarch.png)
+
+## Počet nálezů
+
+## Prostorová distribuce
+
+
