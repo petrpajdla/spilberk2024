@@ -1,5 +1,5 @@
 ---
-title: "Přehled dat o archeologických výzkumech v AMČR"
+title: "AMČR: Přehled dat"
 subtitle: "2019 – 2023"
 title-slide-attributes: 
   data-background-color: "#B5E2FF"
@@ -11,7 +11,7 @@ author:
   - name: Olga Lečbychová
 format:
   revealjs:
-    fontsize: 24px
+    fontsize: 22px
     link-external-icon: true
     link-external-newwindow: true
     footer: "Archeologické výzkumy na Moravě a ve Slezsku 2024"
@@ -34,25 +34,47 @@ execute:
 
 ## Přehled oznámení {background-color=#B5E2FF}
 
-## Přehled oznámení
+- **Oznámení o stavebním či jiném záměru**  
+  odeslaná primárně prostřednictvím formuláře <https://amcr-info.aiscr.cz/oznameni>
+
+## Evidovaná oznámení
+
+![](plots/oznameni.png)
 
 
+|     |  2019|  2020|  2021|  2022|  2023|
+|-----|-----:|-----:|-----:|-----:|-----:|
+| Celkem v ČR | 10408| 11524| 12963| 13600| 13134|
 
-## Jak dlouho dopředu přichází oznámení?
 
-## Přehled OAO
+##
+
+![](plots/oznameni_na_obyvatele.png){width=90%}
+![](plots/oznameni_na_stpov.png){width=90%}
+
+## 
+
+![](plots/oznameni_mapa.png){width=140%}
+
+<!-- ## Jak dlouho dopředu přichází oznámení? -->
+
+<!-- ![](plots/oznameni_trvani.png) -->
+
+## Oprávněné organizace
 
 - Viz aplikace **Mapa archeologických organizací**: <https://oao.aiscr.cz/>
 
 ![](figs/mapa_oao.png)
+
+## Oprávněné organizace
+
+![](plots/oao_map.png)
 
 ## Přehled výzkumů {background-color=#B5E2FF}
 
 ## Jak dlouho trvá archeologický výzkum?
 
 ## AMČR-PAS {background-color=#B5E2FF}
-
-## AMČR-PAS
 
 ### *Portál amatérských spolupracovníků a evidence samostatných nálezů*
 
@@ -63,6 +85,10 @@ execute:
 
 ## Počet nálezů
 
-## Prostorová distribuce
+![](plots/pas_count.png)
 
+##
 
+![](plots/pas_map.png)
+
+## Díky za pozornost! {background-color=#B5E2FF}

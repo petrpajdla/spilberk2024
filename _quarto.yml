@@ -1,5 +1,7 @@
 project:
   title: "spilberk2024"
+  type: website
+  output-dir: docs
 
 
 
