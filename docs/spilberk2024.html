@@ -32,6 +32,7 @@
     }
   </style>
   <link rel="stylesheet" href="site_libs/revealjs/dist/theme/quarto.css">
+  <link rel="stylesheet" href="style.css">
   <link href="site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
   <link href="site_libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
@@ -326,7 +327,7 @@
   <div class="reveal">
     <div class="slides">
 
-<section id="title-slide" data-background-color="#B5E2FF" data-background-image="./figs/aiscr.png" data-background-position="50% 80%" data-background-size="20%" class="quarto-title-block center">
+<section id="title-slide" data-background-color="#B5E2FF" data-background-image="./figs/arub.png" data-background-position="50% 80%" data-background-size="24%" class="quarto-title-block center">
   <h1 class="title">AMČR: Přehled dat</h1>
   <p class="subtitle">2019 – 2023</p>
 
@@ -353,7 +354,8 @@ Olga Lečbychová
 <h2>Přehled oznámení</h2>
 <ul>
 <li><strong>Oznámení o stavebním či jiném záměru</strong><br>
-odeslaná primárně prostřednictvím formuláře <a href="https://amcr-info.aiscr.cz/oznameni" class="uri">https://amcr-info.aiscr.cz/oznameni</a></li>
+odeslaná primárně prostřednictvím formuláře<br>
+<a href="https://amcr-info.aiscr.cz/oznameni" class="uri">https://amcr-info.aiscr.cz/oznameni</a></li>
 </ul>
 </section>
 <section id="evidovaná-oznámení" class="slide level2">
@@ -384,7 +386,7 @@ odeslaná primárně prostřednictvím formuláře <a href="https://amcr-info.ai
 </section>
 <section id="section" class="slide level2">
 <h2></h2>
-<p><img data-src="plots/oznameni_na_obyvatele.png" style="width:90.0%"> <img data-src="plots/oznameni_na_stpov.png" style="width:90.0%"></p>
+<p><img data-src="plots/oznameni_na_obyvatele.png" style="width:88.0%"> <img data-src="plots/oznameni_na_stpov.png" style="width:88.0%"></p>
 </section>
 <section id="section-1" class="slide level2">
 <h2></h2>
@@ -392,7 +394,7 @@ odeslaná primárně prostřednictvím formuláře <a href="https://amcr-info.ai
 <!-- ## Jak dlouho dopředu přichází oznámení? -->
 <!-- ![](plots/oznameni_trvani.png) -->
 <img data-src="plots/oznameni_mapa.png" style="width:140.0%" class="r-stretch"></section>
-<section id="oprávněné-organizace" class="slide level2">
+<section id="oprávněné-organizace" class="slide level2" data-background-color="#B5E2FF">
 <h2>Oprávněné organizace</h2>
 <ul>
 <li>Viz aplikace <strong>Mapa archeologických organizací</strong>: <a href="https://oao.aiscr.cz/" class="uri">https://oao.aiscr.cz/</a></li>
@@ -405,11 +407,41 @@ odeslaná primárně prostřednictvím formuláře <a href="https://amcr-info.ai
 <img data-src="plots/oao_map.png" class="r-stretch"></section>
 <section id="přehled-výzkumů" class="slide level2" data-background-color="#B5E2FF">
 <h2>Přehled výzkumů</h2>
+<ul>
+<li>Jakákoliv <strong>akce</strong> ve stádiu <em>‘zahájen v terénu’</em> a dále,<br>
+tj. splněno <em>oznámení o zahájení archeologické akce</em> (OZAA)</li>
+</ul>
+</section>
+<section id="evidované-zabezpečené-výzkumy" class="slide level2">
+<h2>Evidované zabezpečené výzkumy</h2>
+
+<img data-src="plots/vyzkumy.png" class="r-stretch"><table>
+<thead>
+<tr class="header">
+<th></th>
+<th style="text-align: right;">2019</th>
+<th style="text-align: right;">2020</th>
+<th style="text-align: right;">2021</th>
+<th style="text-align: right;">2022</th>
+<th style="text-align: right;">2023</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Celkem v ČR</td>
+<td style="text-align: right;">9439</td>
+<td style="text-align: right;">9825</td>
+<td style="text-align: right;">9728</td>
+<td style="text-align: right;">9010</td>
+<td style="text-align: right;">7843</td>
+</tr>
+</tbody>
+</table>
 </section>
 <section id="section-2" class="slide level2">
 <h2></h2>
 
-<img data-src="plots/vyzkumy.png" class="r-stretch"></section>
+<img data-src="plots/vyzkumy_mapa.png" style="width:140.0%" class="r-stretch"></section>
 <section id="jak-dlouho-trvá-archeologický-výzkum" class="slide level2">
 <h2>Jak dlouho trvá archeologický výzkum?</h2>
 
@@ -435,6 +467,7 @@ odeslaná primárně prostřednictvím formuláře <a href="https://amcr-info.ai
 <h2>Díky za pozornost!</h2>
 
 <div class="quarto-auto-generated-content">
+<p><img src="./figs/aiscr.png" class="slide-logo"></p>
 <div class="footer footer-default">
 <p>Archeologické výzkumy na Moravě a ve Slezsku 2024</p>
 </div>
@@ -491,7 +524,7 @@ odeslaná primárně prostřednictvím formuláře <a href="https://amcr-info.ai
         progress: true,
 
         // Display the page number of the current slide
-        slideNumber: false,
+        slideNumber: 'c/t',
 
         // 'all', 'print', or 'speaker'
         showSlideNumber: 'all',
@@ -616,9 +649,9 @@ odeslaná primárně prostřednictvím formuláře <a href="https://amcr-info.ai
         // The "normal" size of the presentation, aspect ratio will be preserved
         // when the presentation is scaled to fit different resolutions. Can be
         // specified using percentage units.
-        width: 1050,
+        width: 1280,
 
-        height: 700,
+        height: 800,
 
         // Factor of the display size that should remain empty around the content
         margin: 0.1,

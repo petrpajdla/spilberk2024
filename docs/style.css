@@ -1,0 +1,36 @@
+/* logo */
+.reveal .slide-logo {
+  height: 62px !important;
+  /* width: 100px!important; */
+  /* max-width: unset !important; */
+  max-height: unset !important;
+}
+
+/* title */
+.reveal .title {
+  font-size: 164% !important;
+  /* font-variant: small-caps; */
+  font-weight: 200;
+}
+
+.reveal .subtitle {
+  font-size: 124% !important;
+  /* font-variant: small-caps; */
+  font-weight: 200;
+}
+
+/* headings */
+.reveal h2 {
+  font-size: 122% !important;
+  font-weight: 200;
+}
+
+.reveal h3 {
+  font-size: 108% !important;
+  font-weight: 200;
+}
+
+/* .reveal h4 {
+  font-size: 112%!important;
+  font-weight: 600;
+} */

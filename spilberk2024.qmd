@@ -3,20 +3,26 @@ title: "AMČR: Přehled dat"
 subtitle: "2019 – 2023"
 title-slide-attributes: 
   data-background-color: "#B5E2FF"
-  data-background-image: "./figs/aiscr.png"
-  data-background-size: "20%"
+  data-background-image: "./figs/arub.png"
+  data-background-size: "24%"
   data-background-position: "50% 80%"
 author: 
   - name: Petr Pajdla
   - name: Olga Lečbychová
 format:
   revealjs:
-    fontsize: 22px
+    width: 1280 # 1280
+    height: 800
+    # fontsize: 22px
     link-external-icon: true
     link-external-newwindow: true
     footer: "Archeologické výzkumy na Moravě a ve Slezsku 2024"
     footer-color: "white"
-    # logo: "./figs/aiscr.png"
+    slide-number: true
+    css: style.css
+    smaller: false
+    # theme: simple
+    logo: "./figs/aiscr.png"
     # chalkboard:
     #   theme: whiteboard
     #   chalk-effect: 0.0
@@ -35,7 +41,8 @@ execute:
 ## Přehled oznámení {background-color=#B5E2FF}
 
 - **Oznámení o stavebním či jiném záměru**  
-  odeslaná primárně prostřednictvím formuláře <https://amcr-info.aiscr.cz/oznameni>
+  odeslaná primárně prostřednictvím formuláře   
+  <https://amcr-info.aiscr.cz/oznameni>
 
 ## Evidovaná oznámení
 
@@ -49,8 +56,8 @@ execute:
 
 ##
 
-![](plots/oznameni_na_obyvatele.png){width=90%}
-![](plots/oznameni_na_stpov.png){width=90%}
+![](plots/oznameni_na_obyvatele.png){width=88%}
+![](plots/oznameni_na_stpov.png){width=88%}
 
 ## 
 
@@ -60,7 +67,7 @@ execute:
 
 <!-- ![](plots/oznameni_trvani.png) -->
 
-## Oprávněné organizace
+## Oprávněné organizace {background-color=#B5E2FF}
 
 - Viz aplikace **Mapa archeologických organizací**: <https://oao.aiscr.cz/>
 
@@ -72,9 +79,20 @@ execute:
 
 ## Přehled výzkumů {background-color=#B5E2FF}
 
-##
+- Jakákoliv **akce** ve stádiu *'zahájen v terénu'* a dále,  
+  tj. splněno *oznámení o zahájení archeologické akce* (OZAA)
+
+## Evidované zabezpečené výzkumy
 
 ![](plots/vyzkumy.png)
+
+|             | 2019| 2020| 2021| 2022| 2023|
+|-------------|----:|----:|----:|----:|----:|
+| Celkem v ČR | 9439| 9825| 9728| 9010| 7843|
+
+##
+
+![](plots/vyzkumy_mapa.png){width=140%}
 
 ## Jak dlouho trvá archeologický výzkum?
 
