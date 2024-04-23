@@ -48,20 +48,23 @@ execute:
 
 ![](plots/oznameni.png)
 
+::: {.fragment}
 
 |     |  2019|  2020|  2021|  2022|  2023|
 |-----|-----:|-----:|-----:|-----:|-----:|
 | Celkem v ČR | 10408| 11524| 12963| 13600| 13134|
 
+:::
 
 ##
 
-![](plots/oznameni_na_obyvatele.png){width=88%}
-![](plots/oznameni_na_stpov.png){width=88%}
+![](plots/oznameni_na_obyvatele.png){width=86%}
+
+![](plots/oznameni_na_stpov.png){width=86% .fragment}
 
 ## 
 
-![](plots/oznameni_mapa.png){width=140%}
+![](plots/oznameni_mapa.png){.r-stretch}
 
 <!-- ## Jak dlouho dopředu přichází oznámení? -->
 
@@ -75,7 +78,7 @@ execute:
 
 ## Oprávněné organizace
 
-![](plots/oao_map.png)
+![](plots/oao_map.png){.r-stretch}
 
 ## Přehled výzkumů {background-color=#B5E2FF}
 
@@ -86,13 +89,17 @@ execute:
 
 ![](plots/vyzkumy.png)
 
+::: {.fragment}
+
 |             | 2019| 2020| 2021| 2022| 2023|
 |-------------|----:|----:|----:|----:|----:|
 | Celkem v ČR | 9439| 9825| 9728| 9010| 7843|
 
+:::
+
 ##
 
-![](plots/vyzkumy_mapa.png){width=140%}
+![](plots/vyzkumy_mapa.png){.r-stretch}
 
 ## Jak dlouho trvá archeologický výzkum?
 
@@ -113,6 +120,8 @@ execute:
 
 ##
 
-![](plots/pas_map.png)
+![](plots/pas_map.png){.r-stretch}
 
 ## Díky za pozornost! {background-color=#B5E2FF}
+
+
