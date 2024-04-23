@@ -23,7 +23,7 @@ format:
 execute:
   echo: false
   warning: false
-  cache: true
+  cache: false
 ---
 
 ## Digitální archiv AMČR
@@ -72,7 +72,13 @@ execute:
 
 ## Přehled výzkumů {background-color=#B5E2FF}
 
+##
+
+![](plots/vyzkumy.png)
+
 ## Jak dlouho trvá archeologický výzkum?
+
+![](plots/vyzkum_delka.png)
 
 ## AMČR-PAS {background-color=#B5E2FF}
 
